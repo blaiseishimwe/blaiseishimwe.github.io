@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Blaise Ishimwe - Portfolio Website</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body class="d-flex flex-column h-100">
+        <main class="flex-shrink-0">
+            <!-- Navigation-->
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <div class="container px-5">
+                    <a class="navbar-brand; nav-link" style="color: rgb(152, 149, 142);" href="index.html" >Blaise Ishimwe Portfolio</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+                                                       
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <!-- Page Content-->
+             <div class="bg-image" style="
+                            background-color: rgb(83, 81, 77);">
+            
+             <section class="py-5">
+                <div class="container px-5 my-5">               
+                    
+                    <div class="text-center mb-5"> 
+                        <div class="container">
+                          <div class="col">
+                            <div class="card text-white bg-dark mb-3" style="width: 100%;">
+                                    
+                                      <iframe src="https://animatedclockbis.netlify.app/"   height= '550'title="Shopping List netlify"></iframe>
+                                      <div class="card-body"> 
+                                      <h5 class="card-title">Animated clock project-Live inline frame (embedded)</h5>
+                                      <p class="card-text">In this vanilla JS app,we use the HTML canvas element with the canvas scripting API to draw clock graphics and animations.The window.requestAnimationFrame() method is invoked to tell the browser to perform an animation. It requests the browser to call the clock function before the next repaint. Note that we use recursion inside the clock function to animate another frame since requestAnimationFrame() method is one-shot. A new Date() object is used to determine the local time and position the hour, minute, and second clock hands accordingly by rotating hands to the correct readings at each clock repaint. A form element is used to customize the clock face with desired colors. The selected colors are saved in the localStorage to maintain the desired styles when the window loads. Note that a clock.png will be downloaded upon the form submission and your preferred styles will be saved in your local browser storage. Clone the repo and open the index.html to run the project locally. Thank you for visiting this repository. Feedbacks are welcomed and can be emailed to bishimwe@gmail.com.
+                                      </p>
+                                      <a href="https://github.com/blaiseishimwe/Animated-Clock" class="btn  btn-primary">
+                                        Animated clock Repository
+                                      </a>
+                                      
+                                    </div>
+                                  </div>
+                                <div class="card text-white bg-dark mb-3" style="width: 100%;">
+                                    <img class="card-img-top" src="images\ui_image.png" alt="Card image cap">
+                                    <div class="card-body">
+                                      <h5 class="card-title">Flixx Movie info App</h5>
+                                      <p class="card-text">Movie info application built with Vanilla JS and version 3 of the TMDB API. The project was inspired by Brad T. in his Modern JS from the beginning available @ UDEMY. The project covers various tools of Front End dev, mainly working with APIs, libraries such as Swiper, implementing pagination, Routing and more. USAGE: Just clone or download and then register for a free API key at https://www.themoviedb.org/settings/api Once you get your key, just add it to the api.apiKey value in the global state at the top.Thank you for visiting this repo. Please email any feedback or suggestions at bishimwe84@gmail.com.</p>
+                                      <a href="https://github.com/blaiseishimwe/flixx-app" class="btn btn-primary">flixx-app Repository</a>
+                                    </div>
+                                  </div>
+                              </div>
+                          <div class="card text-white bg-dark mb-3" style="width: 100%;">
+                                    
+                                      <iframe src="https://bishimweshoppinglist.netlify.app/"   height= '400'title="Shopping List netlify"></iframe>
+                                      <div class="card-body"> 
+                                      <h5 class="card-title">Shopping List project-Live inline frame (embedded)</h5>
+                                      <p class="card-text">Simple shopping list app with Vanilla JS.
+                                          Try to find all the features the app has to offer.
+                                          Check the form validation we are using to avoid duplicates and empty strings entry.
+                                          Note that the display property will show the time a list item was added. What are your
+                                          thoughts on the filter and sorting functionalities of the app? List items are time stamped
+                                          and you can sort the items both alphabetically or timewise.
+                                          Note that we are using the local browser storage to store your list items.
+                                          Please email me at bishimwe84@gmail.com with any suggestions and recommendations.
+                                          Thank you for visiting this page!</p>
+                                      <a href="https://github.com/blaiseishimwe/shopping-list" class="btn  btn-primary">
+                                        Shopping list Repository
+                                      </a>
+                                      
+                                    </div>
+                                  </div>
+                              <div class="card text-white bg-dark mb-3" style="width: 100%;">
+                                    <iframe src="https://chuckjokesgeneratorbis.netlify.app/"   height= '400'title="Chuck jokes netlify"></iframe>
+                                    <div class="card-body">
+                                      <h5 class="card-title">Chuck Jokes App - live inline frame (embedded)</h5>
+                                      <p class="card-text">In this vanilla JS app, we use AJAX XMLHttpRequest objects, to interract with https://api.chucknorris.io/jokes/random/ server, fetch a random joke, using GET method, check the readyState===4 property and status===200 code of the response, parse the reponse and dynamically append it to the DOM. The app provides an option to generate jokes automatically at your convenient speed by clicking Auto Jokes button; You will be prompted to enter a numerical value t, passed into setInterval function to fetch and display a new joke every t seconds. Each new joke comes with a new background color. Several colors are stored into an array and we use Math.random() method to select a random color from the array of colors. To run the app locally, clone or download the repository, and run it locally by opening the index.html file. Note that internet connection is needed to fetch data from the API server. 
+                                      Disclaimer: Some jokes are strictly meant for adults.
+                                      Thank you for visiting this repository. Feedbacks are welcomed and can be emailed to bishimwe@gmail.com.</p>
+                                      <a href="https://github.com/blaiseishimwe/chuck-jokes-generator" class="btn btn-primary">Chuck Jokes Repository</a>
+                                    </div>
+                                  
+                                  </div>
+                              <div class="col">
+                          
+                          <div class="row">
+                            <div class="col">
+                                
+                              
+                                
+                              </div>
+                            
+                            <div class="row">
+                              <div class="col">
+                                <div class="card text-white bg-dark mb-3" style="width: 25rem;">
+                                    <img class="card-img-top" src="images/pacman preview.png" alt="Card image cap">
+                                    <div class="card-body">
+                                      <h5 class="card-title">Pacmen project</h5>
+                                      <p class="card-text">In this coding activity, I create pacmen and make them move across the screen.</p>
+                                      <a href="https://github.com/blaiseishimwe/Pacman" class="btn btn-primary">
+                                        Pacman Repository
+                                      </a>
+                                    </div>
+                                  </div>
+                              </div>
+                              <div class="col">
+                                <div class="card text-white bg-dark mb-3" style="width: 25rem;">
+                                    <img class="card-img-top" src="images/Eye exercise.png" alt="Card image cap">
+                                    <div class="card-body">
+                                      <h5 class="card-title">Eye exercise</h5>
+                                      <p class="card-text">In this activity, I have created a web page with two eyes that follow the mouse movement.</p>
+                                      <a href="https://github.com/blaiseishimwe/eye-exercise" class="btn btn-primary">
+                                           Eye exercise Repository
+                                      </a>
+                                    </div>
+                                  </div>
+                              </div>
+                              <div class="col">
+                                <div class="card text-white bg-dark mb-3" style="width: 22rem;">
+                                    <img class="card-img-top" src="images/bus tracker.png" alt="Card image cap">
+                                    <div class="card-body">
+                                      <h5 class="card-title">Bus Tracker</h5>
+                                      <p class="card-text">This is a simple program that illustrates Bus Stops 
+                                        between Harvard and MIT.In this coding activity, we work with the DOM to 
+                                        add animation to Maps.</p>
+                                      <a href="https://github.com/blaiseishimwe/real-time-bus-tracker" class="btn btn-primary">Bus Tracker Repository</a>
+                                    </div>
+                                  </div>
+                              </div>
+                            </div>
+                          </div>                        
+                    </div>                   
+                </div>
+            </section>
+         </div>
+            
+        </main>
+        <!-- Footer-->
+        <footer class="bg-dark py-4 mt-auto">
+            <div class="container px-5">
+                <div class="row align-items-center justify-content-between flex-column flex-sm-row">
+                    <div class="col-auto"><div class="small m-0 text-white">Copyright &copy; Blaise Ishimwe 2025</div></div>
+                   
+                </div>
+            </div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
